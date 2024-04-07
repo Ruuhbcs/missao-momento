@@ -1,0 +1,95 @@
+@media screen and (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 38px;
+        line-height: 35px;
+    }
+
+    .logo{
+        width: 70px;
+    }
+
+    .img-inicial{
+        width: 400px;
+        display: none;
+    }
+
+    .conteudo{
+        flex-direction: column;
+        
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .quem-somos-title {
+        font-size: 30px;
+        margin-left: 6px;
+      }
+
+      .quem-somos-conteudo{
+        margin-left: 6px;
+        line-height: 25px;
+      }
+
+      .quem-somos-texto p{
+        line-height: 20px;
+      }
+
+    .quem-somos-imagem {
+        width: 400px;
+        display: none;
+      }
+
+    .cartão strong {
+        font-size: 18px;
+      }
+
+    .cartão p {
+        font-size: 14px;
+        margin-top: 20px;
+      }
+
+    .icons {
+        width: 60px;
+      }
+
+    .seta {
+        width: 40px;
+      }
+
+    .feedback-title {
+        font-size: 30px;
+      }
+
+    .icon-user {
+        width: 80px;
+      }
+
+    .cartão-feedback p {
+        font-size: 18px;
+      }
+
+    .formulario h2 {
+        font-size: 30px;
+      }
+
+    .formulario p {
+        font-size: 16px;
+      }
+
+    .formulario input[type="text"], .formulario input[type="email"], .formulario textarea, .formulario input[type="submit"] {
+        font-size: 14px;
+      }
+
+    footer p {
+        font-size: 14px;
+      }
+
+}

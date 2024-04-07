@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#6798d8;
+    color: rgb(233, 233, 233);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold;
+}
+
+a{
+    color:white
+}
+
+a:hover{
+    color:#9c693c;
+    transition: 0.5s all;
+}
+
+#parceiro{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+#parceiro:hover{
+    background-color: #9c693c;
+    color: white;
+}
+
+
+main {
+    margin: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo{
+    width: 90px;
+}
+
+.img-inicial{
+    width: 600px;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bolder;
+}
+
+span{
+    color: #025920;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 500px;
+    margin-top: 15px;
+}
+
+
+.quem-somos-title{
+    font-size: 50px;
+}
+
+.quem-somos-conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quem-somos-imagem {
+    width: 600px;
+    margin-right: 40px;
+    object-fit: contain;
+}
+
+.quem-somos-texto {
+    width: 45%;
+}
+
+.icons {
+    width: 80px;
+}
+
+.seta {
+    position: absolute; 
+    bottom: -3px; 
+    right: -3px; 
+    width: 60px;
+}
+
+.cartões {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.cartão {
+    background-color: #4CAF50;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px; 
+    position: relative;
+}
+
+.cartão strong {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #f2f2f2;
+}
+
+.cartão p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+
+.feedback-title{
+    font-size: 50px;
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.icon-user {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cartão-feedback {
+    background-color: #6798d8;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    padding: 5px;
+    width: 200px;
+    position: relative;
+}
+
+.cartão-feedback p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.formulario h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+.formulario p{
+    font-size: 20px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    line-height: 20px;
+}
+
+.formulario {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input[type="text"], .formulario input[type="email"], .formulario textarea {
+    width: 300px;
+    min-width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.formulario input[type="submit"] {
+    width: 300px;
+    min-width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #025920;
+    transition: 0.5s all;
+}
+
+footer{
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer, p{
+    font-weight: bold;
+    font-size: 16px;
+}
